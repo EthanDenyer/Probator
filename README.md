@@ -1,6 +1,8 @@
 # Probator
 Probator is a C++ tool for turning untrusted files into clean ones. It doesn't try to spot malware. Instead it takes a file apart inside a sandbox, keeps only the content it understands, checks that content outside the sandbox, and builds a brand-new file from it.
 
+This is by no means a new concept. This idea was based off a article I read at: https://blog.invisiblethings.org/2013/02/21/converting-untrusted-pdfs-into-trusted.html.
+
 # The problem
 
 Files are a common way to deliver attacks. A file can look completely normal and still carry something hidden:
