@@ -5,10 +5,10 @@ Probator is a C++ tool for turning untrusted files into clean ones. It doesn't t
 
 Files are a common way to deliver attacks. A file can look completely normal and still carry something hidden:
 
-extra data appended after the real content (for example, a ZIP glued onto the end of a JPEG)
-scripts, macros or embedded objects
-metadata such as GPS location
-malformed structures designed to crash or take over the program that reads them
+*Extra data appended after the real content (for example, a ZIP glued onto the end of a JPEG) 
+*scripts, macros or embedded objects
+*metadata such as GPS location
+*malformed structures designed to crash or take over the program that reads them
 
 The obvious defence is a scanner that looks for known bad things and removes them. That approach always lags behind attackers, because it has to recognise every trick in advance.
 
